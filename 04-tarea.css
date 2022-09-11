@@ -1,0 +1,33 @@
+html {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+
+
+#titulo {
+
+    
+    background-color: aquamarine;
+    padding: 10px 20px;
+    margin: 0 auto;
+
+}
+
+.encabezado {
+
+    color: black;
+
+
+}
+
+#elemento-1 {
+
+
+    color: red;
+}
+
+ul li#elemento-1 {
+
+    font-size: 2rem;
+}
