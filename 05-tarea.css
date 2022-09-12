@@ -1,0 +1,41 @@
+html {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(189,195,199);
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+
+    padding: 10px;
+    margin: 10px;
+    background-color: ghostwhite;
+    color: darkblue;
+}
+.container {
+
+    display: flexbox;
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 10px;
+    text-align: center;
+    
+}
+
+.imagen {
+
+    width: 300px;
+    opacity: 0.3;
+    
+}
+
+.imagen:hover {
+
+    opacity: 1;
+}
