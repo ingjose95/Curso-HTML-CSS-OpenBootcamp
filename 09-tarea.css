@@ -1,0 +1,42 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-modern {
+
+    padding: 5px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b5998;
+    color: white;
+    border-bottom: 2px solid rgba(42, 42, 197, 0.881);
+    cursor: pointer;
+
+}
+
+.btn-modern:hover {
+
+    animation: traslacion 0.4s ease-in-out forwards alternate;
+
+}
+
+@keyframes traslacion {
+
+    0% {
+
+        transform: translateX(0%);
+    }
+
+    100% {
+
+        transform: translateX(-5px);
+        background-color: #D318DE;
+        box-shadow: 5px 5px #010a1c;
+        color: black;
+    }
+}
