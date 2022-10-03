@@ -1,0 +1,41 @@
+.container-p, .container-items {
+
+    
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-end;
+
+}
+
+.item {
+
+    padding: 1rem;
+    background-color: rgb(28, 176, 246);
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px gray solid;
+
+}
+
+.itemp {
+
+    background-color: antiquewhite;
+    align-self: flex-start;
+}
+
+@media (max-width: 640px) {
+
+
+    .container-items {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+
+    }
+
+}
